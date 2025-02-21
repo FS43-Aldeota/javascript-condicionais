@@ -45,7 +45,7 @@
 // }
 
 let mes = "Fevereiro";
-let dia = 2;
+let dia = 1;
 let nomeDeForrozeiro = "";
 
 if(mes == "Janeiro"){
@@ -54,6 +54,8 @@ if(mes == "Janeiro"){
     nomeDeForrozeiro = "Avexado(a)";
 } else if(mes == "Março"){
     nomeDeForrozeiro = "Arretado(a)";
+}else{
+    nomeDeForrozeiro = "Marrento(a)";
 }
 
 if(dia == 1){
